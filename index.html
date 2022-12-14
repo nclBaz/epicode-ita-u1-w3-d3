@@ -5,23 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .scritte-arancioni {
+        color: orange;
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body>
     <h1>DOM MANIPULATION</h1>
+    <input
+      type="text"
+      id="nuovo-testo-h1"
+      placeholder="Inserisci qua dentro il nuovo contenuto di h1"
+    />
+    <button onclick="aggiungiElementoADiv()">Aggiungi nuovo elemento alla lista</button>
     <div id="primo-div">Contenuto</div>
     <div class="contenitore">
-      <ul>
-        <li>1</li>
-        <li>2</li>
-      </ul>
+      <h2>Testo random</h2>
     </div>
     <div class="contenitore">
-      <ul>
-        <li>1</li>
-        <li>2</li>
-      </ul>
+      <h2>Testo random</h2>
     </div>
-    <div>Contenuto</div>
+    <div id="lista-elementi"></div>
   </body>
   <script src="index.js"></script>
 </html>
