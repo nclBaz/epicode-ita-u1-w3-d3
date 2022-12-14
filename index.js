@@ -76,3 +76,7 @@ const aggiungiElementoADiv = () => {
   // 3.2 Appendo il nuovoDiv al padre
   padre.appendChild(nuovoDiv)
 }
+
+window.onload = () => {
+  alert("Pagina caricata con successo!")
+}
